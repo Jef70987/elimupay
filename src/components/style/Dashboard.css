@@ -22,7 +22,9 @@
     color: #000000;
 }
 .dashboard--description p{
-    color: red;
+    color: grey;
+    padding: 0px 20px;
+
 }
 
 .search--button {
@@ -49,13 +51,14 @@
     flex-direction: column;
     
 }
-.transcation--details{
+.transaction--details{
     display: flex;
     justify-content: space-between;
     padding: 0rem 2rem;
     gap: 20px;
     align-items: center;
     border-bottom: 1px solid #ddd;
+    font-size: xx-small;
 }
 
 

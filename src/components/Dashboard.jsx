@@ -31,12 +31,12 @@ const Dashboard = () =>{
                         <a href="#">View Receipts</a>
                     </div>
                     <div className="recents">
-                        <div className="transcation--details">
+                        <div className="transaction--details">
                             <p>Bidii School</p>
                             <span><p>TXVA51GAF25</p></span>
                             <p>Ksh. 3000</p>
                         </div>
-                        <div className="transcation--details">
+                        <div className="transaction--details">
                             <p>Bidii school</p>
                             <span><p>TXVA51GAF25</p></span>
                             <p>Ksh. 3000</p>
