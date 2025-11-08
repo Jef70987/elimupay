@@ -12,6 +12,11 @@ const SearchSchool = () =>{
     const [showOptions, setShowOptions] = useState(false);
     const [Info, setInfo] = useState('Select from list or type to search by name.');
     const options = [
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',,
         'Bidii school','Jawabu school','Elimu School'
     ];
 

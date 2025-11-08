@@ -45,7 +45,7 @@
     border: 2px solid #128C7E;
 }
 .list--options{
-    position: absolute;
+    position: relative;
     top: 25%;
     left: 0;
     right: 0;
@@ -54,6 +54,8 @@
     color: #128C7E;
     max-height: 200px;
     overflow-y: auto;
+    width: 80vw;
+    border-radius: 10px;
     
 }
 .verify--button {
