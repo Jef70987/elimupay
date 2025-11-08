@@ -37,7 +37,7 @@
 .verified{
     display: flex;
     justify-content: space-between;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
 }
 .verified p{
     color: #000000;
@@ -56,10 +56,12 @@
 }
 .admission--input input{
     background: transparent;
-    border-radius: 25px;
-    padding: 15px 25%;
+    width: 80%;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid #128C7E;
 }
-.verify--button button{
+.verify--button{
     background-color: #128C7E;
-    padding: 15px 25%;
 }

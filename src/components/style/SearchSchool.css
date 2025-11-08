@@ -32,34 +32,36 @@
     flex-direction: column;
     gap: 10px;
     margin: 10px;
+    align-items: center;
 }
 .input--search p{
-    color: grey;
+    color: red;
 }
-.type--search{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.input--search input{
+    width: 80%;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid #128C7E;
 }
-.search--input input{
-    background: transparent;
-    border-radius: 25px;
-    padding: 15px 25%;
+.list--options{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #128C7E;
+    max-height: 200px;
+    overflow-y: auto;
+    
+}
+.verify--button {
+    background: #128C7E;
     
 }
 
-.search--button{
-    background-color: #128C7E;
-    padding: 15px 25%;
-}
-.type--select .select--input{ 
-    border-radius: 25px;
-    padding: 15px 26%;
-    background: transparent;
-    color: black;
-}
-
-.most--popular-schools h2{
+.most--popular-schools h4{
     border-bottom: 2px solid #ddd;
     color: #000000;
 }
@@ -67,11 +69,8 @@
     text-align: left;
     padding: 0px 10px;
     font-size: bold;
-    
+    color: gray;
 }
-.school h3{
+.school h5{
     color: #000000;
-}
-.school p{
-    color: #808080;
 }

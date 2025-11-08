@@ -11,15 +11,15 @@ const Dashboard = () =>{
         <div className="dashboard--container">
             <div className="dashboard--header">
                 <div className="logo--header">
-                    <h2>ElimuPay</h2>
+                    <h4>ElimuPay</h4>
                 </div>
                 <div className="help--header">
-                    <h3>Help</h3>
+                    <h4>Help</h4>
                 </div>
             </div>
             <div className="dashboard--main--content">
                 <div className="dashboard--description">
-                    <h2>Lipa Karo Na Mpesa</h2>
+                    <h4>Lipa Karo Na Mpesa</h4>
                     <p>Quick, Secure and Transparent with digital receipts</p>
                 </div>
                 <div className="institution--search">
@@ -27,50 +27,21 @@ const Dashboard = () =>{
                 </div>
                 <div className="recent--payments">
                     <div className="receipts--view">
-                        <h2>Recent Payments</h2>
+                        <h4>Recent Payments</h4>
                         <a href="#">View Receipts</a>
                     </div>
-                   <table className="recent--table">
-                    
-                    <tbody>
-                        <tr className="recent--header">
-                            <td>Ref</td>
-                            <td>school</td>
-                            <td>Name</td>
-                            <td>Amount (ksh)</td>
-                            <td>Day/Time</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>TXH35GSYG2</td>
-                            <td>Bidii School</td>
-                            <td>John Juma</td>
-                            <td>4000</td>
-                            <td>2025/11/01-T14:00:00</td>
-                        </tr>
-                        <tr>
-                            <td>TXH35GSYG2</td>
-                            <td>Bidii School</td>
-                            <td>John Juma</td>
-                            <td>4000</td>
-                            <td>2025/11/01-T14:00:00</td>
-                        </tr>
-                        <tr>
-                            <td>TXH35GSYG2</td>
-                            <td>Bidii School</td>
-                            <td>John Juma</td>
-                            <td>4000</td>
-                            <td>2025/11/01-T14:00:00</td>
-                        </tr>
-                        <tr>
-                            <td>TXH35GSYG2</td>
-                            <td>Bidii School</td>
-                            <td>John Juma</td>
-                            <td>4000</td>
-                            <td>2025/11/01-T14:00:00</td>
-                        </tr>
-                    </tbody>
-                   </table>
+                    <div className="recents">
+                        <div className="transcation--details">
+                            <p>Bidii School</p>
+                            <span><p>TXVA51GAF25</p></span>
+                            <p>Ksh. 3000</p>
+                        </div>
+                        <div className="transcation--details">
+                            <p>Bidii school</p>
+                            <span><p>TXVA51GAF25</p></span>
+                            <p>Ksh. 3000</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

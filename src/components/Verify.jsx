@@ -20,7 +20,7 @@ const Verify = () =>{
                     <a href="#" onClick={handleBack}>Back</a>
                 </div>
                 <div className="header--info">
-                    <h2>Verify Student</h2>
+                    <h4>Verify Student</h4>
                 </div>
                 <div className="help--header">
                     <a>Help</a>
@@ -29,16 +29,20 @@ const Verify = () =>{
             <div className="verify--main-content">
                 <div className="verify--description">
                     <div className="verified">
-                        <h3>School :</h3>
-                        <p>Moi primary school</p>
+                        <h5>School :</h5>
+                        <p>Bidii primary xxxx xxxxx school</p>
                     </div>
                     <div className="verified">
-                        <h3>Account No :</h3>
+                        <h5>Account No :</h5>
                         <p>12345678</p>
+                    </div>
+                    <div className="verified">
+                        <h5>Location:</h5>
+                        <p>Kakamega</p>
                     </div>
                 </div>
                 <div className="verify--admission">
-                    <h2>Enter Admissiom Number</h2>
+                    <h4>Enter Admissiom Number</h4>
                     <p>We'll fetch student details automatically</p>
                     <div className="verification">
                         <div className="admission--input">
@@ -48,8 +52,8 @@ const Verify = () =>{
                         {/* <div className="student--details">
 
                         </div> */}
-                        <div className="verify--button">
-                            <button onClick={handleClick}>Verify Student</button>
+                        <div >
+                            <button onClick={handleClick} className="verify--button">Verify Student</button>
                         </div>
                     </div>
                 </div>
