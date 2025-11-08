@@ -1,0 +1,65 @@
+.verify--main-container{
+    background-color: #ffffff;
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.verify--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    border-bottom: 1px solid #ddd;
+    color: green;
+}
+.header--info{
+    color: #128C7E;
+}
+.Nav--Back a{
+    color: #128C7E;
+}
+.help--header a{
+    color: #128C7E;
+}
+
+
+.verify--main-content{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.verify--description{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.verified{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+}
+.verified p{
+    color: #000000;
+    font-weight: bold;
+}
+.verify--admission{
+    color: #000000;
+}
+.verify--admission p{
+    color: gray;
+}
+.verification{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.admission--input input{
+    background: transparent;
+    border-radius: 25px;
+    padding: 15px 25%;
+}
+.verify--button button{
+    background-color: #128C7E;
+    padding: 15px 25%;
+}

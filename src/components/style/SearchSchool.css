@@ -1,0 +1,77 @@
+.search--main-container{
+    background-color: #ffffff;
+    width: 100vw;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.search--header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    border-bottom: 1px solid #ddd;
+    color: green;
+}
+.header--info{
+    color: #128C7E;
+}
+.Nav--Back a{
+    color: #128C7E;
+}
+.help--header a{
+    color: #128C7E;
+}
+.search--main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input--search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.input--search p{
+    color: grey;
+}
+.type--search{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.search--input input{
+    background: transparent;
+    border-radius: 25px;
+    padding: 15px 25%;
+    
+}
+
+.search--button{
+    background-color: #128C7E;
+    padding: 15px 25%;
+}
+.type--select .select--input{ 
+    border-radius: 25px;
+    padding: 15px 26%;
+    background: transparent;
+    color: black;
+}
+
+.most--popular-schools h2{
+    border-bottom: 2px solid #ddd;
+    color: #000000;
+}
+.school{
+    text-align: left;
+    padding: 0px 10px;
+    font-size: bold;
+    
+}
+.school h3{
+    color: #000000;
+}
+.school p{
+    color: #808080;
+}
