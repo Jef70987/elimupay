@@ -16,7 +16,7 @@ const SearchSchool = () =>{
         'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
         'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
         'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
-        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',,
+        'Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School','Bidii school','Jawabu school','Elimu School',
         'Bidii school','Jawabu school','Elimu School'
     ];
 

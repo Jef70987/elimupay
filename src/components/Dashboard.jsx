@@ -20,7 +20,7 @@ const Dashboard = () =>{
             <div className="dashboard--main--content">
                 <div className="dashboard--description">
                     <h4>Lipa Karo Na Mpesa</h4>
-                    <p>Quick, Secure and Transparent with digital receipts</p>
+                    <p>Quick,Transparent and Secure with digital receipts</p>
                 </div>
                 <div className="institution--search">
                     <button className="search--button" onClick={handleClick}>Find school</button>
