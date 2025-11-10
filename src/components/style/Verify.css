@@ -46,6 +46,10 @@
     display: flex;
     justify-content: space-between;
     padding: 0rem 2rem;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    font-size: small;
 }
 .verified p{
     color: #000000;

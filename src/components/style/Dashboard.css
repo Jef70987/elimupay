@@ -50,7 +50,7 @@
 .receipts--view a{
     border: 1px solid #128C7E;
     border-radius: 25px;
-    padding: 0rem 1rem;
+    padding: 0rem 0.3rem;
     color: #128C7E;
 }
 .recents{

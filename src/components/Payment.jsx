@@ -8,8 +8,12 @@ const Payment =()=>{
     const navigate = useNavigate();
     
     const handleClick =()=>{
+        if (value < 50){
+            setError('Min Amount is Ksh 50');
+        } else{
+            navigate('/processing');
+        };
         
-        navigate('/Search');
     };
     const handleBack =()=>{
         navigate('/Verify');
@@ -24,7 +28,7 @@ const Payment =()=>{
             
         } else{
             setValue(inputValue);
-            setError('Min Amount is Ksh 50');
+            
         }
     };
     return(

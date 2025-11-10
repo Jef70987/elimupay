@@ -42,7 +42,7 @@ const Verify = () =>{
                     </div>
                 </div>
                 <div className="verify--admission">
-                    <h4>Enter Admissiom Number</h4>
+                    <h4>Enter Admission Number</h4>
                     <p>We'll fetch student details automatically</p>
                     <div className="verification">
                         <div className="admission--input">
