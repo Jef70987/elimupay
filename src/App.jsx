@@ -5,6 +5,9 @@ import SearchSchool from './components/SearchSchool';
 import Verify from './components/Verify';
 import Payment from './components/Payment';
 import Processing from './components/Processing';
+import PinInput from './components/Auth/Verification';
+import Receipt from './components/receipt';
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
               <Route path='/Verify' element={<Verify/>}/>
               <Route path='/Payment' element={<Payment/>}/>
               <Route path='/Processing' element={<Processing/>}/>
+              <Route path='/verification' element={<PinInput/>}/>
+              <Route path='/receipt' element={<Receipt/>}/>
           </Routes>
       </Router>
     </>

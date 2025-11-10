@@ -11,7 +11,7 @@
     align-items: center;
     padding: 1rem 4rem;
     border-bottom: 1px solid #ddd;
-    color: #128C7E;
+    color: #006633;
 }
 .dashboard--main--content{
     background-color: #ffffff;
@@ -26,7 +26,7 @@
     border: 1px solid #e0e0e0;
 }
 .dashboard--description{
-    color: #000000;
+    color: #006633;
 }
 .dashboard--description p{
     color: grey;
@@ -35,7 +35,7 @@
 }
 
 .search--button {
-    background: #128C7E;
+    background: #006633;
     
 }
 
@@ -45,13 +45,13 @@
     align-items: center;
     padding: 1rem 2rem;
     border-bottom: 1px solid #ddd;
-    color: #128c7e;
+    color: #006633;
 }
 .receipts--view a{
     border: 1px solid #128C7E;
     border-radius: 25px;
     padding: 0rem 0.3rem;
-    color: #128C7E;
+    color: #006633;
 }
 .recents{
     display: flex;

@@ -11,16 +11,16 @@
     align-items: center;
     padding: 1rem 4rem;
     border-bottom: 1px solid #ddd;
-    color: green;
+    color: #006633;
 }
 .header--info{
-    color: #128C7E;
+    color: #006633;
 }
 .Nav--Back a{
-    color: #128C7E;
+    color: #006633;
 }
 .help--header a{
-    color: #128C7E;
+    color: #006633;
 }
 .search--main-content{
     display: flex;
@@ -42,14 +42,14 @@
     align-items: center;
 }
 .input--search p{
-    color: red;
+    color: #006633;
 }
 .input--search input{
     width: 80%;
     padding: 8px;
     border-radius: 50px;
     font-size: 16px;
-    border: 2px solid #128C7E;
+    border: 2px solid #006633;
 }
 .list--options{
     position: relative;
@@ -58,15 +58,16 @@
     right: 0;
     background-color: white;
     border: 1px solid #ccc;
-    color: #128C7E;
+    border-top: none;
+    color: #006633;
     max-height: 200px;
     overflow-y: auto;
     width: 80vw;
     border-radius: 10px;
     
 }
-.verify--button {
-    background: #128C7E;
+.search--button {
+    background: #006633;
     
 }
 

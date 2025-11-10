@@ -81,7 +81,7 @@ const SearchSchool = () =>{
                             ))}
                         </div>
                     )}
-                    <button className="verify--button" onClick={handleClick}>Verify school</button>
+                    <button className="search--button" onClick={handleClick}>Verify school</button>
                 </div>
                 <div className="most--popular-schools">
                     <h4>Popular searches</h4>

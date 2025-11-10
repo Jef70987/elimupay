@@ -3,6 +3,7 @@
     width: 100vw;
     background-size: cover;
     height: 100vh;
+    align-items: center;
 }
 .payment--header{
     display: flex;
@@ -10,16 +11,16 @@
     align-items: center;
     padding: 1rem 4rem;
     border-bottom: 1px solid #ddd;
-    color: green;
+    color: #006633;
 }
 .header--info{
-    color: #128C7E;
+    color: #006633;
 }
 .Nav--Back a{
-    color: #128C7E;
+    color: #006633;
 }
 .help--header a{
-    color: #128C7E;
+    color: #006633;
 }
 
 .payment--main-content{
@@ -34,7 +35,7 @@
     
 }
 .payment--barrier{
-    color: #128C7E;
+    color: #006633;
     font-weight: bolder;
 }
 .student--details{
@@ -44,7 +45,7 @@
 .current--balance{
     font-size: xx-large;
     font-weight: bold;
-    color: #128C7E;
+    color: #006633;
 }
 .payment--status{
     display: flex;
@@ -57,10 +58,10 @@
     padding: 8px;
     border-radius: 50px;
     font-size: 16px;
-    border: 2px solid #128C7E;
+    border: 2px solid #006633;
     margin-top: 15px;
 }
 .payment--button{
     margin-top: 10px;
-    background-color: #128C7E;
+    background-color: #006633;
 }

@@ -32,7 +32,6 @@ const Processing = () =>{
             </div>
             <div className="spinner--loading">
                 <Spinner/>
-                <p>please wait...</p>
             </div>
             
         </div>
