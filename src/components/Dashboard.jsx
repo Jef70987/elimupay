@@ -13,13 +13,11 @@ const Dashboard = () =>{
                 <div className="logo--header">
                     <h4>ElimuPay</h4>
                 </div>
-                <div className="help--header">
-                    <h4>Help</h4>
-                </div>
+                
             </div>
             <div className="dashboard--main--content">
                 <div className="dashboard--description">
-                    <h4>Lipa Karo Na Mpesa</h4>
+                    <h3>Lipa Karo Na Mpesa</h3>
                     <p>Quick,Transparent and Secure with digital receipts</p>
                 </div>
                 <div className="institution--search">
