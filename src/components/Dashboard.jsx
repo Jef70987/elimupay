@@ -11,6 +11,7 @@ const Dashboard = () =>{
         <div className="dashboard--container">
             <div className="dashboard--header">
                 <div className="logo--header">
+                    <img src="/logo.jpg" alt="elimupay logo"/>
                     <h4>ElimuPay</h4>
                 </div>
                 
@@ -18,10 +19,10 @@ const Dashboard = () =>{
             <div className="dashboard--main--content">
                 <div className="dashboard--description">
                     <h3>Lipa Karo Na Mpesa</h3>
-                    <p>Quick,Transparent and Secure with digital receipts</p>
+                    <p>Quick,Transparent,Secure with digital receipts</p>
                 </div>
                 <div className="institution--search">
-                    <button className="search--button" onClick={handleClick}>Find school</button>
+                    <button className="search--button" onClick={handleClick}>Search school</button>
                 </div>
                 <div className="recent--payments">
                     <div className="receipts--view">
@@ -40,6 +41,9 @@ const Dashboard = () =>{
                             <p>Ksh. 3000</p>
                         </div>
                     </div>
+                </div>
+                <div className="copyright">
+                    <p>&copy; {new Date().getFullYear()} SyNapTiK AnaLyTiKs</p>
                 </div>
             </div>
         </div>
