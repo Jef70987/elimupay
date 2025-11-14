@@ -7,6 +7,7 @@ import Payment from './components/Payment';
 import Processing from './components/Processing';
 import PinInput from './components/Auth/Verification';
 import Receipt from './components/receipt';
+import Transactions from './components/Reference/Transaction';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path='/Processing' element={<Processing/>}/>
               <Route path='/verification' element={<PinInput/>}/>
               <Route path='/receipt' element={<Receipt/>}/>
+              <Route path='/Transactions' element={<Transactions/>}/>
           </Routes>
       </Router>
     </>

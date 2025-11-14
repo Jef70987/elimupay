@@ -41,7 +41,6 @@
 
 .dashboard--description p{
     color: white;
-    padding: 0px 20px;
 
 }
 
@@ -61,7 +60,7 @@
 .receipts--view a{
     border: 1px solid #0cee7d;
     border-radius: 25px;
-    padding: 0rem 0.3rem;
+    padding: 0rem 0.2rem;
     color: #ffffff;
     font-weight: bolder;
 }

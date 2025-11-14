@@ -7,6 +7,9 @@ const Dashboard = () =>{
     const handleClick =()=>{
         navigate('/Search');
     };
+    const handleReceipt =()=>{
+        navigate('/Transactions');
+    };
     return (
         <div className="dashboard--container">
             <div className="dashboard--header">
@@ -27,7 +30,7 @@ const Dashboard = () =>{
                 <div className="recent--payments">
                     <div className="receipts--view">
                         <h4>Recent Payments</h4>
-                        <a href="#">View Receipts</a>
+                        <a onClick={handleReceipt}>View Receipts</a>
                     </div>
                     <div className="recents">
                         <div className="transaction--details">
