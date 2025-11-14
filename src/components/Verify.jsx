@@ -30,7 +30,7 @@ const Verify = () =>{
                 <div className="verify--description">
                     <div className="verified">
                         <h5>School :</h5>
-                        <p>Bidii primary xxxx xxxxx school</p>
+                        <p>Bidii primary school</p>
                     </div>
                     <div className="verified">
                         <h5>Account No :</h5>

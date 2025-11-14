@@ -1,5 +1,5 @@
 .payment--main-container{
-    background-color: #ffffff;
+    background-color: rgb(6, 46, 6);
     width: 100vw;
     background-size: cover;
     height: 100vh;
@@ -10,11 +10,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid red;
     color: #006633;
 }
 .header--info{
-    color: #006633;
+    color: white;
 }
 .Nav--Back a{
     color: #006633;
@@ -24,8 +24,8 @@
 }
 
 .payment--main-content{
-    
-    background-color: white;
+    min-height: 100vh;
+    background-color: rgb(234, 231, 231);
     border-radius: 10px;
     padding: 20px;
     margin-top: 15px;
@@ -50,7 +50,7 @@
 .payment--status{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid red;
 }
 .payment--input input{
     background: transparent;
@@ -58,7 +58,7 @@
     padding: 8px;
     border-radius: 50px;
     font-size: 16px;
-    border: 2px solid #006633;
+    border: 2px solid black;
     margin-top: 15px;
 }
 .payment--button{

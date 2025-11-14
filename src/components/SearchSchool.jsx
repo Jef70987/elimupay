@@ -60,7 +60,7 @@ const SearchSchool = () =>{
                      onChange={(e) => setinputValue(e.target.value)}
                      onFocus={() => setShowOptions(true)}
                      onBlur={() => setTimeout(() => setShowOptions(false), 200)}
-                     placeholder="Type or select..."
+                     placeholder="Type or select from list..."
                      />
                     {showOptions && filteredOptions.length > 0 && (
                         <div className="list--options">

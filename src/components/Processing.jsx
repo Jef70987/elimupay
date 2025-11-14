@@ -18,18 +18,7 @@ const Processing = () =>{
             
         </div>
         <div className="processing--main-content">
-            <div className="confirm--process">
-                <p>v</p>
-                <p>School search</p>
-            </div>
-            <div className="confirm--process">
-                <p>v</p>
-                <p>Student verification</p>
-            </div>
-            <div className="confirm--process">
-                <p>v</p>
-                <p>Payment</p>
-            </div>
+            
             <div className="spinner--loading">
                 <Spinner/>
             </div>

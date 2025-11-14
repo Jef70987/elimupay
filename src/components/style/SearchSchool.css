@@ -1,8 +1,9 @@
 .search--main-container{
-    background-color: #ffffff;
+    background-color: rgb(6, 46, 6);
     width: 100vw;
     background-size: cover;
     height: 100vh;
+    color: white;
     
 }
 .search--header{
@@ -10,29 +11,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
-    border-bottom: 1px solid #ddd;
-    color: #006633;
+    border-bottom: 1px solid red;
+    color: white;
 }
-.header--info{
-    color: #006633;
-}
-.Nav--Back a{
-    color: #006633;
-}
-.help--header a{
-    color: #006633;
-}
+
 .search--main-content{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    background-color: white;
+    min-height: 100vh;
+    background-color: rgb(234, 231, 231);
     border-radius: 10px;
     padding: 20px;
     margin-top: 15px;
+    padding: 1rem 2rem;
     margin-bottom: 15px;
     box-shadow: 0 2px 5px 5px rgba(0,0,0,0.1);
-    border: 1px solid #e0e0e0;
+    border: 1px solid rgb(6, 46, 6);;
 }
 .input--search{
     display: flex;
@@ -42,14 +37,14 @@
     align-items: center;
 }
 .input--search p{
-    color: #006633;
+    color: black;
 }
 .input--search input{
     width: 80%;
     padding: 8px;
     border-radius: 50px;
     font-size: 16px;
-    border: 2px solid #006633;
+    border: 2px solid black;
 }
 .list--options{
     position: relative;
@@ -57,13 +52,12 @@
     left: 0;
     right: 0;
     background-color: white;
-    border: 1px solid #ccc;
-    border-top: none;
     color: #006633;
     max-height: 200px;
     overflow-y: auto;
     width: 80vw;
-    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px 5px rgba(0,0,0,0.1);
     
 }
 .search--button {
@@ -83,7 +77,7 @@
     padding: 0rem 2rem;
     gap: 20px;
     align-items: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid red;
     font-size: x-small;
 }
 .school h5{
